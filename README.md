@@ -10,4 +10,4 @@ The code to produce multi-face tracking results: Coming soon...
 ## Demo:
 Our proposed tracker - ReSORT, compared to SORT and DeepSORT, decreases the number of switching IDs effectively.
 
-[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/ijmlr71cksg)
+[![Watch the video](https://github.com/tantm97/ReSORT/blob/main/demo_clip/Chokepoint_Demo.gif)](https://youtu.be/ijmlr71cksg)
