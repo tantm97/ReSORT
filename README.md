@@ -1,11 +1,15 @@
 # ReSORT
 
-Repo for the dataset, and code for the associated paper "ReSORT: ReSORT: an ID-recovery multi-face tracking method for surveillance cameras". This reporsitory contains the annotations for dataset and the code (coming soon...) from the associated paper, for the task of multi-face tracking.
+Repo for the dataset, and code for the associated paper "ReSORT: ReSORT: an ID-recovery multi-face tracking method for surveillance cameras". This reporsitory contains the annotations for dataset and the code from the associated paper, for the task of multi-face tracking.
 
 ## Dataset: 
-We will release three face-tracking annotations files for three respective public dataset, include MSU-AVIS, LAB-dataset and Chokepoint.  
+We will release three face-tracking annotations files for three respective public dataset, include MSU-AVIS, LAB-dataset and Chokepoint.
 ## Code:
-The code to produce multi-face tracking results: Coming soon...
+The code to produce multi-face tracking results:
+```
+bash install.sh
+python3 test.py --network <DETECTOR> --tracker <DEFAULT_RESORT>
+```
 
 ## Demo:
 Our proposed tracker - ReSORT, compared to SORT and DeepSORT, decreases the number of switching IDs effectively.
